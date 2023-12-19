@@ -11,8 +11,8 @@ function Toggle() {
   };
 
   const toggleTheme = (e) => {
-    if (e.target.checked) setLightMode();
-    else setDarkMode();
+    if (e.target.checked) setDarkMode();
+    else setLightMode();
   };
 
   const colorTheme = localStorage.getItem("theme");
@@ -29,7 +29,7 @@ function Toggle() {
         <input
           type="checkbox"
           id="theme-toggle"
-          defaultChecked={colorTheme === "light"}
+          defaultChecked={colorTheme === "dark"}
           onChange={toggleTheme}
         />
         <span className={styles.slider}></span>

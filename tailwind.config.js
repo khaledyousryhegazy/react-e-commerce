@@ -12,7 +12,7 @@ export default {
         colorDark: "var(--dark)",
       },
       backgroundImage: {
-        bgContact: "url('./src/assets/bgContact.png')",
+        bgContact: "url('./src/assets/bgContact.png')" || "var(--blur-blue)",
       },
     },
   },
