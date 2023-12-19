@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .mobile_nav {
+    background-color: var(--blur-blue);
+    position: fixed;
+    left: -120%;
+    top: calc(0px + 57.09px);
+    flex-direction: column;
+    width: 280px;
+    height: 100%;
+    padding: 60px 30px;
+    transition: 0.3s;
+  }
+}
+
+.show_hide {
+  left: 0 !important;
+}
